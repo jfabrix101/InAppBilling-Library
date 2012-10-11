@@ -7,17 +7,23 @@ This android library has been written to simplify the integration of in-app bill
 
 The usage of this library is more simple.
 
-1) Download the project and add it at your application as "Android Project" 
-2) Create your Application class to restore transaction 
-3) Create your custom activity to sell productId 
-3) [Optional] Create your service to specify some behaviour
-4) Modify your AndroidManifest.xml to include new Services, BroadcastReceiver and Activity
+<ol>
+<li> Download the project and add it at your application as "Android Project" </li> 
+<li> Create your Application class to restore transaction  </li>
+<li> Create your custom activity to sell productId  </li>
+<li> [Optional] Create your service to specify some behaviour </li>
+<li> Modify your AndroidManifest.xml to include new Services, BroadcastReceiver and Activity </li>
+</ol>
 
 Publish your application and create product-list.
 
 You can download a simple demo application to see how it works.
 
-For more information and contact: See http://www.fabrizio-russo.it
+See wiki ( https://github.com/jfabrix101/InAppBilling-Library/wiki) for detailed steps
+
+
+
+
   
 
 
