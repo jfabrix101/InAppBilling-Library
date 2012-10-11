@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	E' possibile ridefinire questl layout all'interno del proprio
+	progetto ma e' importnte lasciare almeno i seguenti componenti
+	(con questi stessi ID):
+	
+	@+id/jfabrix101_billing_item_choices - Spinner per la selezione del BillingCatalogItem
+	 
+	@+id/jfabrix101_billing_detail_webview - webView per la visualizzazione della 
+		descrizione dell'item
+		
+	@+id/jfabrix101_billing_buy_button - Pulsante per l'acquisto dell'item
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="4dip"
+    android:paddingRight="4dip" >
+
+    
+    <Spinner android:id="@+id/jfabrix101_billingSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/jfabrix101_billing_select_item" />
+           
+    <WebView android:id="@+id/jfabrix101_billingWebView" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0dip" 
+        android:layout_marginTop="10dip"
+        android:layout_weight="1" /> 
+
+    <!--  toolbar buttons - At moment only buy button -->
+    <LinearLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal">
+        
+        <Button android:id="@+id/jfabrix101_billingBuyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jfabrix101_billing_buy_button" 
+        />
+        
+    </LinearLayout>
+    
+   
+</LinearLayout>
