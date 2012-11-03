@@ -19,7 +19,11 @@ Publish your application and create product-list.
 
 You can download a simple demo application to see how it works.
 
+
 See wiki ( https://github.com/jfabrix101/InAppBilling-Library/wiki) for detailed steps
+
+
+See <a href="http://fabrizio-russo.appspot.com/android/dev/inappbilling/inappbilling.jsp"> Instructions </a> for detailed steps or visit <a href="https://github.com/jfabrix101/InAppBilling-Library/wiki"> wiki </a> pages
 
 
 
